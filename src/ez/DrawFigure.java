@@ -18,7 +18,7 @@ public class DrawFigure {
 
 		//線を描く(始点x, 始点y, 終点x, 終点y, 色, 線幅)
 		EZ.addLine(40,0, 40,50, Color.GREEN, 1);
-		EZ.addLine(0,20, 200,20, Color.YELLOW, 1);
+		EZ.addLine(0,20, 200,20, Color.GREEN, 1);
 
 		//矩形を描く(中心座標x, y, 幅, 高さ, 色, 塗りつぶし)
 		EZ.addRectangle(100,300, 100,50, Color.BLUE, true);
